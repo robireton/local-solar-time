@@ -1,0 +1,28 @@
+#lst_clock {
+    position: relative;
+    margin-bottom: 4em;
+    width: 100%;
+}
+
+#lst_clock .info {
+    position: absolute;
+    bottom: 0;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.2;
+}
+
+#azimuth {
+    text-align: left;
+    left: 0;
+}
+
+#elevation {
+    text-align: right;
+    right: 0;
+}
+
+@media (max-width: 500px) {
+	#lst_clock .info {
+		font-size: 1.2rem;
+	}
+}
